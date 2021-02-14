@@ -1,0 +1,38 @@
+/**
+ * The Main CSS file
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#appContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#puzzleContainer {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.drop-zone {
+  flex-basis: 100px;
+  border: 1px dashed rgba(100,0,0, 0.5);
+  height: 100px;
+}
+
+.drag-element {
+  width: 98px;
+  height: 98px;
+}
